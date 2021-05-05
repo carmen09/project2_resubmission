@@ -1,0 +1,25 @@
+
+body {
+    background-color: black;
+}
+@font-face {
+    font-family: "NimbusSanLBol.otf";
+    src: url(./nimbus/NimbusSanLBol.otf);
+}
+
+.circle{
+    
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+color:black;
+background-color: white;
+right: 50%;
+top: 50%;
+}
+h1{
+    font-family: "NimbusSanLBol.otf";
+    color:blueviolet;
+    position: absolute;
+    font-size: 72px;
+}
