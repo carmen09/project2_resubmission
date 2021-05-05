@@ -1,4 +1,50 @@
-body{ background-color: black; color: white;}
+body{ 
+    background-color: black; 
+    color: white;
+}
+@font-face {
+    font-family: "NimbusSanLBol.otf";
+    src: url(./nimbus/NimbusSanLBol.otf);
+}
+@font-face {
+    font-family: "AvenirNextLTPro-Regular.otf";
+    src: url(./asset/AvenirNextLT/AvenirNextLTPro-Regular.otf);
+}
+           
+.navbar{
+    font-size: 30px;
+    position: absolute;
+    top: 36px;
+   width: 100%;
+   font-family: "NimbusSanLBol.otf";
+
+
+}
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  #right{
+      float: right;
+      margin-right: 80px;
+  }
+  #left{
+    float: left;
+    margin-left: 80px;
+}
+.name{
+font-size: 120px;
+font-family: "NimbusSanLBol.otf";
+line-height: 20px;
+}
+.head2{
+    font-family: "NimbusSanLBol.otf";
+    font-size: 25px;
+    margin-left: 60px;
+    color: turquoise;
+}
 .dvtop
 {
     border: 1px solid white;
@@ -63,8 +109,10 @@ h2{ text-align: left; width: 95%;}
     height: 50px;
     line-height: 50px;
     font-size: 30px;
+    font-family: "AvenirNextLTPro-Regular.otf";
 }
-.dvinput{width:80%; margin-top: 50px; margin-left: 10%; font-size: 50px; height: 50px; text-align: left;}
+.dvinput{
+    width:80%; margin-top: 50px; margin-left: 10%; font-size: 50px; height: 50px; text-align: left;    font-family: "AvenirNextLTPro-Regular.otf";}
 .dvinput span{line-height: 50px;}
 .dvinput input{ 
    border:0; border-bottom: 1px solid white; height: 40px;
@@ -72,7 +120,9 @@ h2{ text-align: left; width: 95%;}
     line-height: 50px;
     width: 40%;
     font-size: 50px;
+       font-family: "AvenirNextLTPro-Regular.otf";
     color: white;
 }
 .dvinput img{ float: right; width: 40px; 
     height: 40px; line-height: 60px; margin-right: 25%; } 
+    

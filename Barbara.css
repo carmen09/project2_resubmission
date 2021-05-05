@@ -1,0 +1,109 @@
+body{ 
+    background-color: black; 
+    color: white;
+}
+@font-face {
+    font-family: "NimbusSanLBol.otf";
+    src: url(./nimbus/NimbusSanLBol.otf);
+}
+@font-face {
+    font-family: "AvenirNextLTPro-Regular.otf";
+    src: url(./asset/AvenirNextLT/AvenirNextLTPro-Regular.otf);
+}
+           
+.navbar{
+    font-size: 30px;
+    position: absolute;
+    top: 36px;
+   width: 100%;
+   font-family: "NimbusSanLBol.otf";
+
+
+}
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  #right{
+      float: right;
+      margin-right: 80px;
+  }
+  #left{
+    float: left;
+    margin-left: 80px;
+}
+.name{
+font-size: 120px;
+font-family: "NimbusSanLBol.otf";
+
+}
+.dvtop
+            {
+                border: 1px solid white;
+                width: 100%;
+                height: 50px;
+                margin-top:20px;
+            }
+            .dvleft
+            {
+                border: 1px solid white;
+                width: 50px;
+                height: 100%;
+                position:absolute;
+                top:20px;
+                left: 20px;
+            }
+            .divcircle
+            {
+                border: 1px solid white;
+                position:absolute;
+                top:25px ;
+                left: 25px;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+            }
+
+            .dvbottom
+            {
+                border: 1px solid white;
+                width: 50px;
+                height: 50px;
+                position: relative;
+                top:93.5%;
+            }
+
+            .dvcenter
+            {
+                position:absolute;
+                left:225px ;
+                width: 70%;
+                height: 90%;
+                overflow-y: scroll;
+            }
+            .dvcenter p
+            {
+                line-height:50px;
+            }
+          #pcontent{
+            font-family: "AvenirNextLTPro-Regular.otf";
+            font-size: 24px;
+          }
+
+            ::-webkit-scrollbar {
+                /*隐藏滚轮*/
+                display: none;
+            }
+            .close{display: none;}
+
+            .color:hover {
+                font-size:expanded;
+                 transform: rotate(20deg);
+                font-size: 2em;
+                 font-weight: 900;
+                color:wheat;
+               
+                  
+              }
