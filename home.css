@@ -1,4 +1,6 @@
 
+
+
 body {
     background-color: black;
 }
@@ -9,17 +11,59 @@ body {
 
 .circle{
     
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
 color:black;
 background-color: white;
-right: 50%;
-top: 50%;
+top: 20%;
+left: 35%;
+position: absolute;
+}
+.dvleft{
+    float: left;
+    width: 20%;
+    position: absolute;
+    top:30%;
+    left: 5%;
+}
+.dvleft li
+{
+    
+    height: 150px;
+}
+
+.dvleft li a
+{
+    color: white;
+    float: left;
+    font-size: 40px;
+}
+.dvright{
+    float: right;
+    width: 20%;
+    position:absolute;
+    top: 30%;
+    right: 5%;
+}
+.dvright li
+{
+  
+    height: 150px;
+}
+.dvright li a
+{
+    color: white;
+    float: right;
+    font-size: 40px;
 }
 h1{
     font-family: "NimbusSanLBol.otf";
     color:blueviolet;
     position: absolute;
     font-size: 72px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
 }
