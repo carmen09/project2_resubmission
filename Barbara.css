@@ -98,12 +98,9 @@ font-family: "NimbusSanLBol.otf";
             }
             .close{display: none;}
 
-            .color:hover {
-                font-size:expanded;
-                 transform: rotate(20deg);
-                font-size: 2em;
-                 font-weight: 900;
-                color:wheat;
-               
-                  
-              }
+         
+
+       .hidding:hover {
+                        opacity: 0;
+                      }
+                      
