@@ -9,6 +9,7 @@ body {
     src: url(./nimbus/NimbusSanLBol.otf);
 }
 
+
 .circle{
     
     width: 500px;
@@ -25,6 +26,7 @@ position: absolute;
     width: 20%;
     position: absolute;
     top:30%;
+    font-family: "NimbusSanLBol.otf";
     left: 5%;
 }
 .dvleft li
@@ -32,6 +34,10 @@ position: absolute;
     
     height: 150px;
 }
+.dvleft a {
+    text-align: center;
+    text-decoration: none;
+  }
 
 .dvleft li a
 {
@@ -44,8 +50,14 @@ position: absolute;
     width: 20%;
     position:absolute;
     top: 30%;
+    font-family: "NimbusSanLBol.otf";
     right: 5%;
 }
+.dvright a {
+    text-align: center;
+    text-decoration: none;
+    
+  }
 .dvright li
 {
   
@@ -59,11 +71,11 @@ position: absolute;
 }
 h1{
     font-family: "NimbusSanLBol.otf";
-    color:blueviolet;
+    color:white;
     position: absolute;
     font-size: 72px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
