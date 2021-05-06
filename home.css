@@ -79,3 +79,37 @@ h1{
     text-align: center;
     margin-top: 20px;
 }
+
+@media only screen and (max-width: 414px) {
+    h1{
+       
+        font-size: 42px;
+      
+    } 
+
+.circle{  
+    width: 150px;
+    height: 150px;
+
+  
+}
+.dvleft li a
+{
+
+    font-size: 20px;
+}
+.dvright{
+    top: 40%;
+    right: 15%;
+    
+}
+.dvright li a
+{
+
+    font-size: 20px;
+}
+.dvleft{
+    top: 40%;
+    
+}
+}
