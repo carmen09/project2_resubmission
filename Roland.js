@@ -3,13 +3,13 @@ function clickimg()
             var imgs=$("#imgs");
             if(imgs.attr("class") == "close")
             {
-                   imgs.removeClass("close");
-                   $("#pcontent").addClass("close");
+                  imgs.removeClass("close");
+                  $(".dvcenter").addClass("close");
             }
             else
             {
-                $("#pcontent").removeClass("close");
                 imgs.addClass("close");
+                $(".dvcenter").removeClass("close");
             }
         }
 
